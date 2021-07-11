@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-card {
+  @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+}
+
+.item-image {
+  @apply h-full rounded mb-20 shadow;
+}
+
+.item-content {
+  @apply flex flex-col justify-center items-center;
+}
+
+.item-content h2 {
+  @apply text-2xl mb-2;
+}
+
+.item-content p {
+  @apply mb-2;
+}
